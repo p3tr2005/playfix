@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+body {
+    background-color: rgb(19, 19, 19);
+    
+}
+
+.moneyyy {
+    background-image: url("banner/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30em;
+    object-fit: cover;
+}
+
+.box {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom, rgba(128, 128, 128, 0), rgb(16, 16, 16));
+}
+
+.logo{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: .6em;
+}
+
+.netflix {
+    width: 4em;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 2em;
+    cursor: pointer;
+}
+
+.banner  {
+    width: 22em;
+    height: 23em;
+    margin-left: 2em;
+    margin-top: 5em;
+    display: inline-block;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.banner button {
+    color: white;
+    padding : .6em 1.5em;
+    background-color: rgba(69, 71, 71, 0.345);
+    margin-top: .4em;
+    margin-right: 2em;
+    border: none;
+    margin-bottom: 1em;
+    cursor: pointer;
+    transition: all .25s;
+}
+
+.banner button:hover {
+    background-color: rgba(103, 105, 105, 0.345);
+}
+
+.banner p {
+    font-size:  .8rem;
+    line-height: 1.3em;
+}
+
+.judul {
+    margin-bottom: 1em;
+    margin-left: .6em;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top img {
+    width: 8em;
+    object-fit: cover;
+    transition: all .15s;
+    cursor: pointer;
+}
+
+.top img:hover {
+    transform: scale(1.1);
+}
+
+/*media*/
+@media (max-width: 568px){
+    .moneyyy {
+        background-position:left;
+    }
+
+    .top {
+        display: inline-block;
+        width: 568px;
+        margin :0px auto;
+    }
+
+    .top img {
+        margin-bottom:1em;
+    }
+
+    .banner {
+        margin :3em 1.5em ;
+    }
+}
+
+@media (min-width: 768px ){
+
+
+}
